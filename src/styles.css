@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .grid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .features, .partners {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .feature-items, .partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-items div, .partner-logo img {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+  }
+  
+  .register-form {
+    width: 400px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .flex-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-row div {
+    width: 48%;
+  }
+  
+  .gst-toggle button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .gst-toggle .active {
+    background-color: #d33;
+    color: white;
+  }
+  
+  .add-gst-btn,
+  .register-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #d33;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .terms {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  a {
+    color: #d33;
+  }
