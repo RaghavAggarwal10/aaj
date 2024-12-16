@@ -2,10 +2,13 @@ import React from 'react';
 import FeatureSection from './components/FeatureSection';
 import PartnersSection from './components/PartnersSection';
 import RegisterForm from './components/RegisterForm';
+import Transforming from './components/Transforming';
 import './styles.css';
 
 const App = () => {
   return (
+    <>
+  
     <div className='grid'> 
       <div>
       <FeatureSection />
@@ -15,6 +18,11 @@ const App = () => {
         <RegisterForm />
       </div>
     </div>
+    <div>
+      <Transforming/>
+    </div>
+    </>
+
   );
 };
 
